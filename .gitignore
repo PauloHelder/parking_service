@@ -1,0 +1,79 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+staticfiles/
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+local.env
+
+# Build outputs
+dist/
+build/
+coverage/
+.nyc_output/
+coverage-final.json
+coverage.xml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+out/
+
+# macOS, Linux temporary
+*.swp
+*~
+*.tmp
+
+# Docker
+docker-compose.override.yml
+
+# Secrets and keys
+*.pem
+*.key
+
+# Misc
+*.log.*
+.cache/
+*.bak
+*.orig
+
+# Git
+*.patch
+
+# Project-specific: ignore local settings, lockfiles if desired
+.env.local
+local-settings.json
